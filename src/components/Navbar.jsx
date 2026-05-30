@@ -11,9 +11,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container nav-container">
-        <Link to="/" className="nav-logo">
-          <Scissors size={22} />
-          BUKYBOOKS
+        <Link to="/" className="nav-logo" style={{ padding: 0 }}>
+          <img src="/images/logo.png" alt="BUKYBOOKS" style={{ height: '50px', width: 'auto', display: 'block' }} />
         </Link>
 
         <div className="nav-links">
